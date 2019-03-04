@@ -5,8 +5,12 @@ class Film extends Component {
     render(){
         return (
             <div className = "film">
-            filmObject</div>
+            <h4>{this.props.name}</h4>
+            <p>{this.props.children}</p>
+            </div>
         )
 
     }
 }
+
+export default Film;
