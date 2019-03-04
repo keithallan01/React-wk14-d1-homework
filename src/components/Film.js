@@ -5,8 +5,9 @@ class Film extends Component {
     render(){
         return (
             <div className = "film">
-            <h4>{this.props.name}</h4>
-            <p>{this.props.children}</p>
+                <a href={this.props.href}>
+                   <li>{this.props.children}</li>
+                </a>
             </div>
         )
 
